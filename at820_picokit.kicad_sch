@@ -7252,7 +7252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8127,7 +8127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 224.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9089,7 +9089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 189.23 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9975,7 +9975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 224.79 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10067,7 +10067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 87.63 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10225,7 +10225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10311,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 260.35 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10792,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 87.63 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12785,7 +12785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 189.23 71.12 0)
 			(hide yes)
 			(show_name no)
