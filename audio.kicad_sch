@@ -914,6 +914,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Speaker"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LS"
+				(at 1.27 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Speaker"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.254 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Speaker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "speaker sound"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Speaker_0_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Speaker_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:BAT60A"
 			(pin_numbers
 				(hide yes)
@@ -2238,12 +2379,6 @@
 		(uuid "3cce4f07-0c74-47dd-a355-324b955e733e")
 	)
 	(junction
-		(at 30.48 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48716ff5-6569-41e2-9c2e-ad41e25c8592")
-	)
-	(junction
 		(at 147.32 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2262,6 +2397,12 @@
 		(uuid "64231561-8923-42fc-adec-6b0696ce6dbf")
 	)
 	(junction
+		(at 97.79 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e8d0e6-8e31-49a1-bcd4-015284f0f556")
+	)
+	(junction
 		(at 44.45 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2272,12 +2413,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c041559-6c24-453c-a238-e9a632b20ae3")
-	)
-	(junction
-		(at 97.79 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f93632c-d96f-4a06-88fc-e98527f91e57")
 	)
 	(junction
 		(at 44.45 171.45)
@@ -2326,16 +2461,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc00db34-a673-4961-bf5b-834252fc519d")
-	)
-	(wire
-		(pts
-			(xy 73.66 86.36) (xy 82.55 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c01dab-5973-4fa0-b236-d8a7b041f828")
 	)
 	(wire
 		(pts
@@ -2419,6 +2544,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 86.36) (xy 82.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c7a208-421c-4f7f-b4a3-7f15fc3680b9")
+	)
+	(wire
+		(pts
 			(xy 91.44 60.96) (xy 91.44 63.5)
 		)
 		(stroke
@@ -2436,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "13e68810-3666-44d6-a555-1e32a7a3265b")
+	)
+	(wire
+		(pts
+			(xy 86.36 100.33) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b192d70-94d4-4d50-af45-1670e08edf68")
 	)
 	(wire
 		(pts
@@ -2609,17 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 82.55) (xy 82.55 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44bc38bd-390a-463c-b7f0-8526833ecff9")
-	)
-	(wire
-		(pts
-			(xy 30.48 54.61) (xy 30.48 60.96)
+			(xy 34.29 54.61) (xy 34.29 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 73.66) (xy 97.79 76.2)
+			(xy 97.79 73.66) (xy 97.79 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2899,6 +3034,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91223bb6-bb32-47a2-b336-6da6294a3425")
+	)
+	(wire
+		(pts
 			(xy 44.45 180.34) (xy 44.45 184.15)
 		)
 		(stroke
@@ -3029,16 +3174,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 91.44 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0b9efe-cbe7-44ae-bd3f-af4e31438d2c")
-	)
-	(wire
-		(pts
 			(xy 34.29 72.39) (xy 34.29 71.12)
 		)
 		(stroke
@@ -3086,6 +3221,16 @@
 			(type default)
 		)
 		(uuid "b275bd25-6b88-4d7b-acaa-e87b3f4e73d3")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2946d2e-1bba-44ec-86b7-585cbafa5cd3")
 	)
 	(wire
 		(pts
@@ -3289,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 97.79) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb72ba46-7cde-4855-bed8-475685b29e55")
+	)
+	(wire
+		(pts
 			(xy 195.58 104.14) (xy 213.36 104.14)
 		)
 		(stroke
@@ -3396,6 +3551,16 @@
 			(justify left bottom)
 		)
 		(uuid "1bfdafbb-5fea-4793-8808-7c015bc203d1")
+	)
+	(label "PA_OUTN"
+		(at 86.36 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2231b61b-de6d-4652-97b3-8cc3513ddb8d")
 	)
 	(label "AT_RMIC_N"
 		(at 195.58 123.19 0)
@@ -3598,6 +3763,16 @@
 		(uuid "d352a65a-4852-49f4-b477-54bad5b9d230")
 	)
 	(label "PA_OUTP"
+		(at 86.36 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daabcff8-44a3-45ab-a204-0f95e6d1d6ca")
+	)
+	(label "PA_OUTP"
 		(at 82.55 86.36 180)
 		(effects
 			(font
@@ -3706,7 +3881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d3a929-7358-4e25-b581-a99813321d99")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR072"
 			(at 44.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3766,7 +3941,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3856,7 +4031,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 76.2 0)
+		(at 97.79 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3866,8 +4041,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09146113-9527-4b66-a0f7-b317405f1f76")
-		(property "Reference" "#PWR072"
-			(at 97.79 82.55 0)
+		(property "Reference" "#PWR075"
+			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3878,7 +4053,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 81.28 0)
+			(at 97.79 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3888,7 +4063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 76.2 0)
+			(at 97.79 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3899,7 +4074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 76.2 0)
+			(at 97.79 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +4085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 76.2 0)
+			(at 97.79 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3926,7 +4101,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR072")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4026,7 +4201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e612093-fa64-4a09-8296-a30c82d2f3a5")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 127 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,7 +4265,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4106,7 +4281,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18fa2a13-4155-44a4-9056-dda05dc53780")
 		(property "Reference" "L1"
 			(at 40.64 55.88 90)
@@ -4119,7 +4293,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 40.64 58.42 90)
+			(at 40.64 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4128,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0402S"
 			(at 40.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4188,7 +4362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "223069dc-1fcc-4445-aa8e-9d55a2360534")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 73.66 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4198,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Value" "33K"
+		(property "Value" "39K"
 			(at 73.66 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4250,7 +4424,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4268,7 +4442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d19d09-e671-4974-a8f2-878a04702eac")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR076"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4328,7 +4502,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR073")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b871ac7-b6cb-4362-b3d4-8703c325e5e4")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 46.99 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4492,7 +4666,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4510,7 +4684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca7d80e-9ca3-4d4d-a0d2-9f69ed5f9416")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 44.45 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -4570,7 +4744,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR070")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4588,7 +4762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dea122f-34b1-4177-b8e8-6549c033e8f0")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 200.66 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 200.66 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4656,7 +4830,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4674,7 +4848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "503d6878-2397-4b27-9f70-5b96a5839aca")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 46.99 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,7 +4912,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4746,7 +4920,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 30.48 54.61 0)
+		(at 34.29 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4756,8 +4930,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5500c03a-2ac2-481f-b830-cd7236ab7458")
-		(property "Reference" "#PWR067"
-			(at 30.48 58.42 0)
+		(property "Reference" "#PWR070"
+			(at 34.29 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4768,7 +4942,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 30.48 49.53 0)
+			(at 34.29 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4778,7 +4952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 54.61 0)
+			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,7 +4963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 54.61 0)
+			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4800,7 +4974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 30.48 54.61 0)
+			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +4990,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4834,7 +5008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d39b47b-4a93-4905-81af-b986fbcdb704")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 46.99 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4898,7 +5072,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4926,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT760-7"
+		(property "Value" "SS14"
 			(at 63.8175 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4936,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
 			(at 63.5 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -5158,7 +5332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86181596-e48c-4e18-96c2-7aa8b4f2d182")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 127 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5222,7 +5396,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5505,7 @@
 				)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "0.1uF"
 			(at 63.5 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5401,7 +5575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d740d0b-92dd-4b0e-9f84-fed8bbf7538b")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR079"
 			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5461,7 +5635,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR076")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5736,7 +5910,7 @@
 				)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "0.1uF"
 			(at 63.5 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c09e6dc0-8bc8-4ecd-9358-db136b4ab64c")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR077"
 			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5866,7 +6040,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR074")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5884,7 +6058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c138c858-2435-4d9e-b027-7242167e4c8c")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 127 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5948,7 +6122,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6127,7 +6301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c690ef28-55f0-4d31-b89d-b1e33affbd9a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR074"
 			(at 76.2 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6187,7 +6361,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR071")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb32c6b4-e3f0-46af-9bba-dbcec93a3800")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR078"
 			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6265,7 +6439,89 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR075")
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Speaker")
+		(at 101.6 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d0d239-0059-4e06-b994-93766ed6c399")
+		(property "Reference" "LS1"
+			(at 106.68 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 106.68 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.346 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Speaker"
+			(at 101.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2981d679-01d3-4d57-b565-005ff25661ce")
+		)
+		(pin "2"
+			(uuid "44de58aa-733a-40e5-b944-cfb6ca1cfeee")
+		)
+		(instances
+			(project "at820_picokit"
+				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
+					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09bab6f-b6d8-48c3-981c-6f6f273f69cd")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 73.66 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6374,7 +6630,7 @@
 				)
 			)
 		)
-		(property "Value" "33K"
+		(property "Value" "39K"
 			(at 73.66 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6426,7 +6682,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f843688f-8df6-4b60-a42f-3e20defda007")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 59.69 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6782,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6544,7 +6800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9dcaa6a-72ec-4902-b3f1-6a3b90defabf")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 127 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6864,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6626,7 +6882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbc1d3c8-c250-40eb-8cc8-7cdb43d32c8c")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 46.99 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6690,7 +6946,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6708,7 +6964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc026dec-417b-428a-a0ae-2d1998d190bb")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR071"
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6768,7 +7024,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR068")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)

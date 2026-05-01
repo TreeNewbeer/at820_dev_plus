@@ -4829,7 +4829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0332ce03-cd71-4994-b5a8-bf286ee84425")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 30.48 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,7 +4893,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4911,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073948d0-89a3-40e5-a342-ad8f49d84165")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4971,7 +4971,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4989,7 +4989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0819e8a2-8c78-46a2-9ea6-30e9e17c1b89")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -5049,7 +5049,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cc5101f-735e-45d6-ae13-7f02b3a77ba1")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 67.31 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5458,7 +5458,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5476,7 +5476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "210b58fe-76bd-4676-972e-4bd5f0f589be")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR062"
 			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5536,7 +5536,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR058")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "276a031c-79a6-4857-aaa2-91c05006f2da")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 76.2 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5617,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5717,7 +5717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4014b3d7-5444-4ee7-aeb5-4867a8b6c54d")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 31.75 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,7 +5781,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5799,7 +5799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43b7cd98-e837-4353-9e8f-bebb4afa71bb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 121.92 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5859,7 +5859,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5956,7 +5956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e7e310-6709-4c4d-a308-ab34241d9294")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 90.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6017,7 +6017,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f318367-eba4-4321-9b62-447016fde332")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 105.41 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6182,7 +6182,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6199,7 +6199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531e027c-b1f2-4b66-b7a8-864edac393f6")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 166.37 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6260,7 +6260,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6356,7 +6356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "545a160c-2e6b-4d0a-8454-8ba26bf97a54")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 87.63 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6420,7 +6420,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6f8f88-aa67-48c8-b89b-78ad0d14c175")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR053"
 			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6580,7 +6580,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR050")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6597,7 +6597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6274efaf-1b6e-4793-bf33-c3c17de8f80a")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 149.86 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6657,7 +6657,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6921,7 +6921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dd1ae98-b29b-4506-ab33-c29b9f8496c1")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6981,7 +6981,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74156f43-c636-4914-8405-0fd1d2583e64")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 153.67 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7301,7 +7301,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7319,7 +7319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf59b11-889a-4267-941d-ff69c8b0dba5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7379,7 +7379,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7397,7 +7397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80e4f0a7-d23a-4129-b95e-91eed19c4cf4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 74.93 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7457,7 +7457,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7811,7 +7811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bd81ca3-5842-474d-988e-076b0fdc39d9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 151.13 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7871,7 +7871,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7889,7 +7889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8bd12e-7caf-4d4c-bf6f-783acb0f32c6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR044"
 			(at 35.56 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7949,7 +7949,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7966,7 +7966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e1315ae-c3e3-43ae-9148-1cacd0c4efab")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 67.31 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,7 +8030,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8048,7 +8048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a23a810-329d-4fb9-9d63-231c06fc540a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 59.69 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8109,7 +8109,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c54fc09-f67a-4ac1-9eab-43420edf37df")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 74.93 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,7 +8268,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5cafb50-325a-4265-a56c-cf4bcbac221b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8346,7 +8346,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8364,7 +8364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9a7814-0b77-45ee-aab3-62e374f691aa")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 194.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8424,7 +8424,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8601,7 +8601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f64845-5420-41d1-8d33-e3100242de8e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 36.83 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8661,7 +8661,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8679,7 +8679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92f4921-b1ec-46bd-94c7-e6f5ac6c23f8")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 83.82 127 0)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +8739,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8757,7 +8757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1132083-b581-47aa-97bc-a9e7dd4dd601")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 149.86 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8817,7 +8817,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8834,7 +8834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6a2206a-08a9-489a-b80c-e8b57682a915")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 77.47 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8898,7 +8898,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9076,7 +9076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9b62df4-38c5-4c49-b31f-3827154df611")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 218.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9136,7 +9136,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd56e525-fed6-4c2a-95a3-8cd9234c54ef")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 179.07 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9295,7 +9295,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9312,7 +9312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddd0c5da-5b76-4e3e-a842-23e7919f2ae0")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR069"
 			(at 246.38 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9373,7 +9373,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9391,7 +9391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3ea976-46c6-441f-8ef6-92936b5ad8b0")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 64.77 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9451,7 +9451,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9468,7 +9468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebe6818b-2512-4ecd-9b91-8afa0c8d0081")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9529,7 +9529,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9547,7 +9547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8c938b-eea4-4ace-a2ac-fab26b364ecd")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 207.01 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9607,7 +9607,7 @@
 		(instances
 			(project "at820_picokit"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
